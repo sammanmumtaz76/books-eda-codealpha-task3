@@ -6,7 +6,7 @@ An interactive Tableau dashboard built on the books.toscrape.com dataset
 (1,000 books), visualizing pricing patterns, rating distributions, and 
 category-level trends identified during EDA (Task 2).
 
-**Task 2 (EDA) repository:** [link yahan daalna]
+**Task 2 (EDA) repository:** https://github.com/sammanmumtaz76/books-eda-codealpha
 
 ---
 

@@ -1,41 +1,22 @@
-# 📚 Books Dataset — EDA & Visualization
-**CodeAlpha Data Analytics Internship**
+Books Dataset — Data Visualization Dashboard
+**CodeAlpha Data Analytics Internship | Task 3**
 
-## 📌 Overview
-This repository contains the complete analysis of 1,000 books scraped from 
-books.toscrape.com — covering statistical EDA (Task 2) and an interactive 
-Tableau dashboard (Task 3).
+## Overview
+An interactive Tableau dashboard built on the books.toscrape.com dataset 
+(1,000 books), visualizing pricing patterns, rating distributions, and 
+category-level trends identified during EDA (Task 2).
 
----
-
-## 🎯 Task 2 — Exploratory Data Analysis
-**File:** `notebooks/Books_EDA.ipynb`
-
-Statistical analysis using Python, pandas, and scipy — including:
-- Data quality checks (nulls, duplicates, scraping artifacts)
-- Univariate analysis (price, category, rating distributions)
-- Outlier detection (IQR method)
-- Bivariate & multivariate analysis (price vs rating, category trends)
-- Hypothesis testing (ANOVA)
-
-### Key Findings
-- Price distribution is nearly symmetrical (skewness = −0.04)
-- Price and rating are statistically independent (ANOVA: p = 0.833)
-- 21.9% of category labels were scraping artifacts — cleaned before analysis
-- Historical Fiction offers the best value (low price + solid rating)
+**Task 2 (EDA) repository:** [link yahan daalna]
 
 ---
 
-## 🎨 Task 3 — Data Visualization Dashboard
-**File:** `dashboard/Books-EDA-Dashboard.twbx`
-
-An interactive Tableau dashboard built to visually communicate the findings 
-from Task 2 to a non-technical audience.
-
-### Dashboard Preview
+##  Dashboard Preview
 ![Dashboard Screenshot](dashboard/dashboard_screenshot.png)
 
-### What's Included
+---
+
+##  What's Included
+
 | Visual | Purpose |
 |--------|---------|
 | Price Distribution (Histogram) | Shows how prices are spread across £10–£60 |
@@ -46,15 +27,23 @@ from Task 2 to a non-technical audience.
 | Category Heatmap | Combined view of price and rating across genres |
 | KPI Cards | Total Books, Average Price, Average Rating, Total Categories |
 
-### How to View
-This dashboard requires **Tableau Desktop or Tableau Reader** (free) to open 
-the `.twbx` file. A static preview is included above for quick viewing 
-without installing any software.
+---
+
+##  Key Insights Visualized
+- Prices are evenly distributed (£10–£60) with no extreme outliers
+- Price and rating show no meaningful relationship
+- Travel and Fantasy are the highest-priced genres
+- Historical Fiction offers the best value (low price, solid rating)
 
 ---
 
-## 🛠️ Tools Used
-Python · pandas · numpy · scipy · Tableau
+## How to View
+This dashboard requires **Tableau Desktop** or the free **Tableau Reader** 
+to open `dashboard/Books-EDA-Dashboard.twbx`. 
+A static preview image is included above for quick viewing.
 
-## 👤 Author
-Samman — BSCS, University of Sargodha# books-eda-codealpha-tak3
+##  Tools Used
+Tableau · Python (for data preparation)
+
+##  Author
+Samman — BSCS, University of Sargodha
